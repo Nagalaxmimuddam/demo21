@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        
+//week msg
+
+ let day=prompt("enter a day");
+
+ if(day=="monday"){
+     console.log("Start your week strong!");
+    
+ }
+ else if(day=="tuesday"){
+     console.log("Keep going!");
+ }
+ else if(day=="wednesday"){
+     console.log("Halfway there!");
+ }
+ else if(day=="thursday"){
+     console.log("Almost the weekend!");
+ }
+ else if(day=="friday"){
+     console.log("Happy friday!");
+ }
+ else if(day=="saturday"){
+     console.log("Enjoy your weekend!");
+ }
+ else if(day=="sunday"){
+     console.log("enjoy your weekend!");
+ }
+ else{
+     console.log("not matched day")
+ }
+
+
+//traffic lights
+
+ let light=prompt("enter a colour");
+
+ if( light=="red"){
+  console.log("stop");
+ }
+ else if(light=="green"){
+     console.log("Go");
+ }
+ else if(light=="yellow"){
+     console.log("get ready");
+ }
+ else{
+     console.log("default color");
+ }
+
+//discounts
+
+let amount=prompt("enter the amount");
+
+if(amount<=50){
+    console.log("no discount");
+}
+    else if(amount<=100){
+        console.log("5% discount");
+    }
+        else if(amount<=200){
+            console.log("10% discount");
+        }
+        
+        else if(amount>=200){
+            console.log("15% discount");
+        }
+        else{
+            console.log("amount is invalid");
+        }
+        
+    
+ //restuarent   
+
+let dish=prompt("enter the dish name");
+
+switch(dish){
+    case"biryani":
+    console.log("200/-");
+    break;
+    case"shavarma":
+    console.log("120/-");
+    break;
+    case"Fried rice":
+    console.log("80/-");
+    break;
+    case"veg pula":
+    console.log("100/-");
+
+}
+
+
+
+//simple calculator
+
+let num1=prompt("enter the first number");
+let num2=prompt("enter the second number");
+let opp=prompt("enter operation to perform");
+        switch(opp){
+            case "addition":
+                console.log(num1+num2);
+                break;
+                case "subtraction":
+                console.log(num1-num2);
+                break;
+                case "multiplication":
+                console.log(num1*num2);
+                break;
+                case "division":
+                console.log(num1/num2);
+                break;
+                default:
+                console.log("Invalid operation");
+        }
+</script>   
+</body>
+</html>
